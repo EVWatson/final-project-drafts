@@ -7,23 +7,32 @@
 
 ## Problem
 
+  Description of your project, including:
 
-Description of your project, including,
-Problem definition / purpose
-Functionality / features
-Screenshots
-Tech stack (e.g. html, css, deployment platform, etc)
-Instructions on how to setup, configure, deploy and use your App.
-Design documentation including,
-Design process
-User stories
-A workflow diagram of the user journey/s.
-Wireframes
-Database Entity Relationship Diagrams
-Data Flow Diagram
-OO design documentation
-Details of Project Management & Planning process including,
-Project plan & timeline
-Client communications
-Screenshots of Trello board(s)
-Answers to the Short Answer questions (Section 2.2)
+- Problem definition / purpose
+- Functionality / features
+- Screenshots
+- Tech stack (e.g. html, css, deployment platform, etc)
+  - MERN stack; MongoDB, express.js, react.js, node.js
+  - Deployed to: React - Netlify, API - now.sh, MongoDB - mLab
+
+# Instructions on how to setup, configure, deploy and use your App.
+
+
+# Design documentation including:
+
+- Design process
+- User stories
+- A workflow diagram of the user journey/s.
+- Wireframes
+- Database Entity Relationship Diagrams
+- Data Flow Diagram
+- Design documentation
+
+# Details of Project Management & Planning process including:
+
+- Project plan & timeline
+- Client communications
+- Screenshots of Trello board(s)
+
+# Answers to the Short Answer questions (Section 2.2)
