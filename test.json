@@ -17,7 +17,8 @@
                 "enrolled": false,
                 "day": "monday",
                 "time": "1630"
-            }
+            },
+            "gender": "male"
         },
         {
             "name": "first and last",
@@ -31,7 +32,8 @@
             "email": "email",
             "primary_instrument": "primary instrument",
             "primary_learning_location": "location",
-            "experience": "current level"
+            "experience": "current level",
+            "gender": "female"
         }
     ],
     "schedule": [{
@@ -164,15 +166,14 @@
             "block_start": 15,
             "block_end": 16,
             "booked_by": "user-id",
-            "location": "location-id"
-        : "instrument-id"
+            "location": "location-id",
+            "instrument": "instrument-id"
         }
     ],
     "instruments": [
         {
             "id": 1,
             "name": "piano"
-            
         },
         {
             "id": 2,
