@@ -139,5 +139,24 @@
                     }
                 }]
             }]
-    }]
+    }],
+    "locations": [
+        {
+            "name": "location",
+            "id": 1,
+            "address": "address"
+        }
+    ],
+    "pending_bookings": [
+        {
+            "term": 1,
+            "week": 1,
+            "day": "day",
+            "block_start": 15,
+            "block_end": 16,
+            "booked_by": "user-id",
+            "location": "location-id",
+            "instrument": "instrument-id"
+        }
+    ]
 }
