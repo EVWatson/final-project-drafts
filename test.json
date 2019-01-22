@@ -1,0 +1,143 @@
+{
+    "users": [
+        {
+            "name": "first and last",
+            "date_of_birth": "date",
+            "parent_name": "parent name",
+            "primary_contact": {
+                "name": "name",
+                "number": "number"
+            },
+            "address": "address",
+            "email": "email",
+            "primary_instrument": "primary instrument",
+            "primary_learning_location": "location",
+            "experience": "current level"
+        },
+        {
+            "name": "first and last",
+            "date_of_birth": "date",
+            "parent_name": "parent name",
+            "primary_contact": {
+                "name": "name",
+                "number": "number"
+            },
+            "address": "address",
+            "email": "email",
+            "primary_instrument": "primary instrument",
+            "primary_learning_location": "location",
+            "experience": "current level"
+        }
+    ],
+    "schedule": [{
+        "term1": [{
+            "week1": [{
+                "day1": {
+                    "blocks": [{
+                            "number": 1,
+                            "time": "0830",
+                            "available": true,
+                            "booked_by": "user-id"
+                        },
+                        {
+                            "number": 2,
+                            "time": "0845",
+                            "available": true,
+                            "booked_by": "user-id"
+                        }
+                    ],
+                    "day2": {
+                            "blocks": [{
+                                    "number": 1,
+                                    "time": "0830",
+                                    "available": true,
+                                    "booked_by": "user-id"
+                                },
+                                {
+                                    "number": 2,
+                                    "time": "0845",
+                                    "available": true,
+                                    "booked_by": "user-id"
+                                }
+                            ]
+                        }
+                }
+            }],
+            "week2": [{
+                "day1": {
+                    "blocks": [{
+                            "number": 1,
+                            "time": "0830",
+                            "available": true,
+                            "booked_by": "user-id",
+                            "location": "location-id"
+                        },
+                        {
+                            "number": 2,
+                            "time": "0845",
+                            "available": true,
+                            "booked_by": "user-id",
+                            "location": "location-id"
+                        }
+                    ],
+                    "day2": {
+                        "blocks": [{
+                                "number": 1,
+                                "time": "0830",
+                                "available": true,
+                                "booked_by": "user-id",
+                                "location": "location-id"
+                            },
+                            {
+                                "number": 2,
+                                "time": "0845",
+                                "available": true,
+                                "booked_by": "user-id",
+                                "location": "location-id"
+                            }
+                        ]
+                    }
+                }
+            }]
+        }],
+            "term2": [{
+                "week1": [{
+                    "day1": {
+                        "blocks": [{
+                                "number": 1,
+                                "time": "0830",
+                                "available": true,
+                                "booked_by": "user-id",
+                                "location": "location-id"
+                            },
+                            {
+                                "number": 2,
+                                "time": "0845",
+                                "available": true,
+                                "booked_by": "user-id",
+                                "location": "location-id"
+                            }
+                        ],
+                        "day2": {
+                            "blocks": [
+                                {
+                                    "number": 1,
+                                    "time": "0830",
+                                    "available": true,
+                                    "booked_by": "user-id",
+                                    "location": "location-id"
+                                },
+                                {
+                                    "number": 2,
+                                    "time": "0845",
+                                    "available": true,
+                                    "booked_by": "user-id",
+                                    "location": "location-id"
+                                }
+                            ]
+                        }
+                    }
+                }]
+            }]
+    }]
+}
