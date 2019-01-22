@@ -12,7 +12,12 @@
             "email": "email",
             "primary_instrument": "primary instrument",
             "primary_learning_location": "location",
-            "experience": "current level"
+            "experience": "current level",
+            "currently_enrolled": {
+                "enrolled": false,
+                "day": "monday",
+                "time": "1630"
+            }
         },
         {
             "name": "first and last",
@@ -37,13 +42,15 @@
                             "number": 1,
                             "time": "0830",
                             "available": true,
-                            "booked_by": "user-id"
+                            "booked_by": "user-id",
+                            "location": "location-id"
                         },
                         {
                             "number": 2,
                             "time": "0845",
                             "available": true,
-                            "booked_by": "user-id"
+                            "booked_by": "user-id",
+                            "location": "location-id"
                         }
                     ],
                     "day2": {
@@ -51,13 +58,15 @@
                                     "number": 1,
                                     "time": "0830",
                                     "available": true,
-                                    "booked_by": "user-id"
+                                    "booked_by": "user-id",
+                                    "location": "location-id"
                                 },
                                 {
                                     "number": 2,
                                     "time": "0845",
                                     "available": true,
-                                    "booked_by": "user-id"
+                                    "booked_by": "user-id",
+                                    "location": "location-id"
                                 }
                             ]
                         }
@@ -87,14 +96,14 @@
                                 "available": true,
                                 "booked_by": "user-id",
                                 "location": "location-id"
-                            },
+                                },
                             {
                                 "number": 2,
                                 "time": "0845",
                                 "available": true,
                                 "booked_by": "user-id",
                                 "location": "location-id"
-                            }
+                                }
                         ]
                     }
                 }
@@ -109,14 +118,14 @@
                                 "available": true,
                                 "booked_by": "user-id",
                                 "location": "location-id"
-                            },
+                                },
                             {
                                 "number": 2,
                                 "time": "0845",
                                 "available": true,
                                 "booked_by": "user-id",
                                 "location": "location-id"
-                            }
+                                }
                         ],
                         "day2": {
                             "blocks": [
@@ -126,14 +135,14 @@
                                     "available": true,
                                     "booked_by": "user-id",
                                     "location": "location-id"
-                                },
+                                        },
                                 {
                                     "number": 2,
                                     "time": "0845",
                                     "available": true,
                                     "booked_by": "user-id",
                                     "location": "location-id"
-                                }
+                                        }
                             ]
                         }
                     }
@@ -155,8 +164,20 @@
             "block_start": 15,
             "block_end": 16,
             "booked_by": "user-id",
-            "location": "location-id",
-            "instrument": "instrument-id"
+            "location": "location-id"
+        : "instrument-id"
+        }
+    ],
+    "instruments": [
+        {
+            "id": 1,
+            "name": "piano"
+            
+        },
+        {
+            "id": 2,
+            "name": "voice"
+            
         }
     ]
 }
