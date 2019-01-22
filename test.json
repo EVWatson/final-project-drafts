@@ -18,7 +18,8 @@
                 "day": "monday",
                 "time": "1630"
             },
-            "gender": "male"
+            "gender": "male",
+            "role": "admin "
         },
         {
             "name": "first and last",
@@ -36,6 +37,7 @@
             "gender": "female"
         }
     ],
+
     "schedule": [{
         "term1": [{
             "week1": [{
@@ -44,8 +46,9 @@
                             "number": 1,
                             "time": "0830",
                             "available": true,
-                            "booked_by": "user-id",
-                            "location": "location-id"
+                            "approval_pending": false,
+                            "booked_by": "user object ",
+                            "location": "location"
                         },
                         {
                             "number": 2,
@@ -151,34 +154,5 @@
                 }]
             }]
     }],
-    "locations": [
-        {
-            "name": "location",
-            "id": 1,
-            "address": "address"
-        }
-    ],
-    "pending_bookings": [
-        {
-            "term": 1,
-            "week": 1,
-            "day": "day",
-            "block_start": 15,
-            "block_end": 16,
-            "booked_by": "user-id",
-            "location": "location-id",
-            "instrument": "instrument-id"
-        }
-    ],
-    "instruments": [
-        {
-            "id": 1,
-            "name": "piano"
-        },
-        {
-            "id": 2,
-            "name": "voice"
-            
-        }
-    ]
+
 }
