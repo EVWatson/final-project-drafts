@@ -1,43 +1,4 @@
 {
-    "users": [
-        {
-            "name": "first and last",
-            "date_of_birth": "date",
-            "parent_name": "parent name",
-            "primary_contact": {
-                "name": "name",
-                "number": "number"
-            },
-            "address": "address",
-            "email": "email",
-            "primary_instrument": "primary instrument",
-            "primary_learning_location": "location",
-            "experience": "current level",
-            "currently_enrolled": {
-                "enrolled": false,
-                "day": "monday",
-                "time": "1630"
-            },
-            "gender": "male",
-            "role": "admin "
-        },
-        {
-            "name": "first and last",
-            "date_of_birth": "date",
-            "parent_name": "parent name",
-            "primary_contact": {
-                "name": "name",
-                "number": "number"
-            },
-            "address": "address",
-            "email": "email",
-            "primary_instrument": "primary instrument",
-            "primary_learning_location": "location",
-            "experience": "current level",
-            "gender": "female"
-        }
-    ],
-
     "schedule": [{
         "term1": [{
             "week1": [{
@@ -48,30 +9,37 @@
                             "available": true,
                             "approval_pending": false,
                             "booked_by": "user object ",
-                            "location": "location"
-                        },
-                        {
+                            "location": "location",
+                            "instrument": "voice"
+                             },
+                            {
                             "number": 2,
                             "time": "0845",
                             "available": true,
+                            "approval_pending": false,
                             "booked_by": "user-id",
-                            "location": "location-id"
-                        }
-                    ],
+                            "location": "location-id",
+                            "instrument": "voice"
+                            }
+                        ],
                     "day2": {
                             "blocks": [{
                                     "number": 1,
                                     "time": "0830",
                                     "available": true,
+                                    "approval_pending": false,
                                     "booked_by": "user-id",
-                                    "location": "location-id"
+                                    "location": "location-id",
+                                    "instrument": "voice"
                                 },
                                 {
                                     "number": 2,
                                     "time": "0845",
                                     "available": true,
+                                    "approval_pending": false,
                                     "booked_by": "user-id",
-                                    "location": "location-id"
+                                    "location": "location-id",
+                                    "instrument": "voice"
                                 }
                             ]
                         }
@@ -83,15 +51,19 @@
                             "number": 1,
                             "time": "0830",
                             "available": true,
+                            "approval_pending": false,
                             "booked_by": "user-id",
-                            "location": "location-id"
+                            "location": "location-id",
+                            "instrument": "voice"
                         },
                         {
                             "number": 2,
                             "time": "0845",
                             "available": true,
+                            "approval_pending": false,
                             "booked_by": "user-id",
-                            "location": "location-id"
+                            "location": "location-id",
+                            "instrument": "voice"
                         }
                     ],
                     "day2": {
@@ -99,15 +71,19 @@
                                 "number": 1,
                                 "time": "0830",
                                 "available": true,
+                                "approval_pending": false,
                                 "booked_by": "user-id",
-                                "location": "location-id"
+                                "location": "location-id",
+                                "instrument": "voice"
                                 },
                             {
                                 "number": 2,
                                 "time": "0845",
                                 "available": true,
+                                "approval_pending": false,
                                 "booked_by": "user-id",
-                                "location": "location-id"
+                                "location": "location-id",
+                                "instrument": "voice"
                                 }
                         ]
                     }
@@ -121,15 +97,19 @@
                                 "number": 1,
                                 "time": "0830",
                                 "available": true,
+                                "approval_pending": false,
                                 "booked_by": "user-id",
-                                "location": "location-id"
+                                "location": "location-id",
+                                "instrument": "voice"
                                 },
                             {
                                 "number": 2,
                                 "time": "0845",
                                 "available": true,
+                                "approval_pending": false,
                                 "booked_by": "user-id",
-                                "location": "location-id"
+                                "location": "location-id",
+                                "instrument": "voice"
                                 }
                         ],
                         "day2": {
@@ -138,21 +118,25 @@
                                     "number": 1,
                                     "time": "0830",
                                     "available": true,
+                                    "approval_pending": false,
                                     "booked_by": "user-id",
-                                    "location": "location-id"
-                                        },
+                                    "location": "location-id",
+                                    "instrument": "voice"
+                                },
                                 {
                                     "number": 2,
                                     "time": "0845",
                                     "available": true,
+                                    "approval_pending": false,
                                     "booked_by": "user-id",
-                                    "location": "location-id"
-                                        }
+                                    "location": "location-id",
+                                    "instrument": "voice"
+                                }
                             ]
                         }
                     }
                 }]
             }]
-    }],
+    }]
 
 }
