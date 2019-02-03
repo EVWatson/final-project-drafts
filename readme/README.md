@@ -74,12 +74,6 @@ From the user portal, the parent can keep contact details up to date, view the l
 - Database Entity Relationship Diagrams
 
 
-- Data Flow Diagram
-
-
-- Design documentation
-
-
 
 # Details of Project Management & Planning process including:
 
