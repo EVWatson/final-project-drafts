@@ -5,6 +5,7 @@ Team members:
 - Alex Taylor
 - Emily Watson
 
+
 Visit our application [here](https://lms-lilla.netlify.com/).
 
 View the GitHub repository [here](https://github.com/EVWatson/Final-Project).
@@ -22,6 +23,7 @@ Lilla currently uses Facebook, business cards and flyers as a means to display i
 Lilla would like a centralised place to consolidate all of these processes. She would especially like a means of keeping student details accurate and up to date. She would also like a means to remind parents of lesson times, exceptions to lesson times such as public holidays, and when invoices are due for payment.
 
 For her student's parents, Lilla would like a means for them to make bookings, view current bookings, and update their contact details.
+
 
 
 ### Functionality and Features
@@ -92,18 +94,49 @@ You can now view the deployed application at the url provided by Netlify. For an
 
 # Design Documentation
 
-- Design process
+### Design process
+
+Our design process began with white-boarding the data structure. Once this was established, we used the colour scheme and typography from our client's business card as inspiration for the design of the website and application. The layout was then created in Figma.
+
+
 - User stories
+
+Teacher (admin user)
+
+From the admin teacher portal, the teacher is able to view student details with ease. The teacher is able to approve lesson booking requests, and view their weekly schedule. The teacher can send notifications to students via email to remind students and parents of lesson times, public holidays and other important information.
+
+Parent/student (user)
+
+From the user portal, the parent can keep contact details up to date, view the lesson time and location, and book lessons for each term. The parent can request their preferred lesson time.
+
 - A workflow diagram of the user journey/s.
+
+
 - Wireframes
+
+
 - Database Entity Relationship Diagrams
-- Data Flow Diagram
-- Design documentation
+
+
 
 # Details of Project Management & Planning process including:
 
 - Project plan & timeline
+
+_Week One_
+- data planning and structure
+- mongoDB objects created
+- begin coding by mid-Week
+
+_Week Two_
+- continue coding, focussing on authentication and user api end points
+- begin react, routing current user end-points
+- style as we go
+- continue documentation
+- complete Wireframes, which will double as a user workflow
+
 - Client communications
+
 - Screenshots of Trello board(s)
 Provide an overview and description of your source control process.
 
