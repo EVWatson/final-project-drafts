@@ -6,7 +6,7 @@ Team members:
 - Emily Watson
 
 
-Visit our application [here](https://lms-lilla.netlify.com/).
+View our application here: [Music Lessons With Lilla](https://lms-lilla.netlify.com/).
 
 View the GitHub repository [here](https://github.com/EVWatson/Final-Project).
 
@@ -96,18 +96,42 @@ You can now view the deployed application at the url provided by Netlify. For an
 
 ### Design process
 
-Our design process began with white-boarding the data structure. Once this was established, we used the colour scheme and typography from our client's business card as inspiration for the design of the website and application. The layout was then created in Figma.
+Our design process began with white-boarding the data structure. Once this was established, we used the colour scheme and typography from our client's business card as inspiration for the design of the website and application. The wireframe and user workflow layout was then created in Figma.
 
 
-- User stories
+### User stories
 
-Teacher (admin user)
+**Teacher (admin user)**
 
-From the admin teacher portal, the teacher is able to view student details with ease. The teacher is able to approve lesson booking requests, and view their weekly schedule. The teacher can send notifications to students via email to remind students and parents of lesson times, public holidays and other important information.
+The teacher has a user role of admin. When logged in, the teacher is directed to their dashboard portal, where they can view their schedule for the week, which shows booked music lessons, so they can plan their day.
 
-Parent/student (user)
+The teacher can navigate to site details from their admin dashboard to update the website content, i.e. to update lesson prices or policies.
 
-From the user portal, the parent can keep contact details up to date, view the lesson time and location, and book lessons for each term. The parent can request their preferred lesson time.
+The teacher can navigate to student detail from their admin dashboard so they can find the contact details of a group of students or a particular student.
+
+
+
+**Parent/student (user)**
+
+The parent has a role of user. When logged in, the parent is directed to their dashboard portal. From here, the parent can view their current enrolment details, including lesson day, time and location.
+
+The parent can navigate to their contact details from the user dashboard to view what details they have provided, and update their details when necessary.
+
+The parent can navigate to lesson bookings from the user dashboard, where they can book a lesson day and time for the upcoming term that fits in with their availability.
+
+**Website visitor/prospective student**
+
+A visitor to the website has public access only.
+
+A visitor can view information about Lilla and the music tuition services she provides on the Home page to find out more about her as a prospective teacher.
+
+A visitor can view specific information about Lilla's music lessons, including instruments offered, teaching locations, and rates and payment on the Lessons page. They can also view Lilla's lesson policies on the Polcies page. The visitor can use this information to make an informed decision as to whether they would like to book lessons with Lilla.
+
+A visitor can visit the Contact page to view contact details for Lilla, so they can get in touch with further enquiries.
+
+A visitor can view the Login page, and select 'Register' to create a user account once they have decided to enrol themselves or their child into lessons with Lilla. 
+
+
 
 - A workflow diagram of the user journey/s.
 
