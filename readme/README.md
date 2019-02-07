@@ -1,16 +1,27 @@
-# Final Project README draft
+# Real World Application
 
-### A link (URL) to your published App
-  TBA
-### A link to your GitHub repository
-  TBA
+Team members:
+- Sherin Samuel
+- Alex Taylor
+- Emily Watson
 
-## Problem
+Visit our application [here](https://lms-lilla.netlify.com/).
 
-  Description of your project, including:
+View the GitHub repository [here](https://github.com/EVWatson/Final-Project).
 
-- Problem definition / purpose:
-  -	Needs single place to display all music lesson info
+## Our Client
+Our client is Lilla, a self-employed, instrumental music teacher.
+
+
+## Project Description
+
+### Problem definition / purpose:
+
+Lilla currently uses Facebook as a means to display information relevant to her teaching business. In addition to Facebook, Lilla has business cards and 
+
+
+  -	Needs single place to display
+  all music lesson info
   -	Current way to request lessons is via phone call or facebook or in person at the school > would like more streamlined method
   -	Contact details for students often not given or are incorrect
   -	Students forget to pay
