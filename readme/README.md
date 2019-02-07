@@ -85,7 +85,7 @@ Our application is deployed to free hosting services. We recommend deploying the
 
 2. Deploy the database to mLab following the [docs](https://docs.mlab.com/). Make sure you update your .env file so the database url matches your deployment url (supplied by mLab), rather than your local mongod server address.
 
-3. Deploy the API to now.sh following the [docs](https://zeit.co/docs).
+3. Deploy the API to now.sh following the [docs](https://zeit.co/docs). The url provided by now.sh should show 'hi from api' in the browser. You can test other endpoints using Postman or a similar program.
 
 4. Deploy React to Netlify following the [docs](https://www.netlify.com/docs/).
 
