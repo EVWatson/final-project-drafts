@@ -17,27 +17,80 @@ Our client is Lilla, a self-employed, instrumental music teacher.
 
 ### Problem definition / purpose:
 
-Lilla currently uses Facebook as a means to display information relevant to her teaching business. In addition to Facebook, Lilla has business cards and 
+Lilla currently uses Facebook, business cards and flyers as a means to display information relevant to her teaching business. Students currently call or email Lilla to make enquiries and bookings for lessons. Lilla currently calls, emails or texts students to send invoices, and remind them of lesson times.
+
+Lilla would like a centralised place to consolidate all of these processes. She would especially like a means of keeping student details accurate and up to date. She would also like a means to remind parents of lesson times, exceptions to lesson times such as public holidays, and when invoices are due for payment.
+
+For her student's parents, Lilla would like a means for them to make bookings, view current bookings, and update their contact details.
 
 
-  -	Needs single place to display
-  all music lesson info
-  -	Current way to request lessons is via phone call or facebook or in person at the school > would like more streamlined method
-  -	Contact details for students often not given or are incorrect
-  -	Students forget to pay
-  -	Students/parents forget lesson times and when school holidays are
-  -	Parents prefer to meet in person before signing up for piano lessons
+### Functionality and Features
 
-- Functionality / features
-- Screenshots
-- Tech stack (e.g. html, css, deployment platform, etc)
-  - MERN stack; MongoDB, express.js, react.js, node.js
-  - Deployed to: React - Netlify, API - now.sh, MongoDB - mLab
-
-# Instructions on how to setup, configure, deploy and use your App.
+Screenshots of Application:
 
 
-# Design documentation including:
+
+
+Tech stack:
+
+This application uses a MERN stack; MongoDB for our database, Express as the framework for the API, ReactJS for the front-end, and Node.js for running the server environment.
+
+Our application is deployed to the following:
+ * React - Netlify
+ * API - now.sh
+ * MongoDB - mLab
+
+
+### Setup and Configuration
+
+1. Fork or clone the repository to your local computer.
+
+2. Run ``` $ npm i ``` to install dependencies.
+
+To run on your local computer:
+
+1. Set up .env file in your api directory; you will need to include your MongoDB, Cookie and Request Origin secret keys in this file. You will need to add the .env file to your gitignore.
+
+2. In the client directory, you will need to create a .env.development file with REACT_APP_API_URL=you_local_host_address. Alternatively, you can go through the client files and update
+```JavaScript
+ const url = process.env.REACT_APP_API_URL + `/pathname`
+ ```
+ to your localhost address, i.e. :
+ ```JavaScript
+ const url = 'http://localhost:3000/pathname'
+ ```
+
+2. In the project directory, run ``` $ mongod ``` to start your local MongoDB server.
+
+3. Run the seed file (api/users.json) or see the JSON object structure (located in this README) to populate your database.
+
+4. In the api directory, run ``` $ npm start ``` to start your api server.
+
+5. In the client directory, run ``` $ npm start ``` to start the React local server; React scripts will automatically open the web application in you default browser.
+
+Ports used:
+- MongoDB: default set by mongod,
+- API: 5001,
+- React: 3000
+
+### App Deployment and Usage
+
+To deploy the application:
+
+Our application is deployed to free hosting services. We recommend deploying the database to [mLab](https://mlab.com/welcome/), API to [now.sh](https://zeit.co/now), and React to [Netlify](https://www.netlify.com/).
+
+1. Sign up for each of the services listed above (or a service of your own choice).
+
+2. Deploy the database to mLab following the [docs](https://docs.mlab.com/). Make sure you update your .env file so the database url matches your deployment url (supplied by mLab), rather than your local mongod server address.
+
+3. Deploy the API to now.sh following the [docs](https://zeit.co/docs).
+
+4. Deploy React to Netlify following the [docs](https://www.netlify.com/docs/).
+
+You can now view the deployed application at the url provided by Netlify. For any changes made to the code after deployment, you will need to re-deploy the API and React to view them at the application url.
+
+
+# Design Documentation
 
 - Design process
 - User stories
